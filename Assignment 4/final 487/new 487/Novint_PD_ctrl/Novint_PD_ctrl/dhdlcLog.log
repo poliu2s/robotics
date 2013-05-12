@@ -1,0 +1,5 @@
+[dhdlcImp::dhdlcImp():02.49.13.0004] - Constructor called
+[dhdlcImp::init():02.49.13.0004] - init(Default Falcon,(null))
+[dhdlcImp::init():02.49.17.4381] - dhdOpen() returned 0
+[dhdlcImp::init():02.49.17.5934] - DeviceSN = 14QAJM15
+[dhdlcImp::init():02.49.17.5934] - Returning

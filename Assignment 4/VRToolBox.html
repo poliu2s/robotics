@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>RealTimeBlock.html</title>
+</head>
+<body>
+One of the Maatlab toolboxes that we have access to in the departmetn
+is the Virtual Reality Toolbox.<br>
+In Matlab, type "demo". In the left pane expand your&nbsp; "Virtual
+Reality"&nbsp; toolbox. Repeat with "Simulink Examples".<br>
+Double click the "Vitual Reality Tutorial #1" to see a simple example
+of its use, and check <a href="http://www.mathworks.com/pl_vr">http://www.mathworks.com/pl_vr</a>
+for an overview of the VR Toolbox.<br>
+<br>
+To see how a robot might be built with the type of revolute and
+prismatic links that we have seen in class, download the archive found <a
+ href="http://www.ece.ubc.ca/%7Eelec487/priv/MatlabWorkVRdemo.zip">here</a>,
+and double click first on HalfScaraSinusoidalMotion.mdl for an example
+of the first two links of a SCARA robot moving in the plane, with each
+of the angle joints controlled by sinusoidal sources with amplitude
+pi/2 (you must double click on the VR Sink block to see the rendered
+robot). The RTBlock found in this simulation allows you to run the
+simulation in real time, with the robot model swinging back and forth
+at the frequency chosen in the Signal Generator blocks.<br>
+<br>
+As an example of the use of the RTBlock to produce nice looking
+trajectories, double click on the HalfScaraMotionOver5seconds.mdl
+model. This shows the same two SCARA links but these are now driven by
+ramp signals. <br>
+Over 5 seconds, the first intergator value will ramp up to pi, while
+the second integrator will ramp up to pi/2. Thus running the simulation
+over 5 seconds moves the robot along an interpolated motion from an
+initial condition of theta1=0, theta2=0, to theta1=pi, theta2 = pi/2.<br>
+<br>
+Another example that is simple to follow is the Bouncing Ball tutorial.
+Run it in the usual way. In order to make this simulation real-time,
+drag a window around the RTBlock and Scope 3 from the
+HalfScaraMotionOver5seconds.mdl model, copy (controlC) and paste it
+(controlV) in the vrbounce simulation window.<br>
+<br>
+To edit the geometrical model in one of the VRSinks in Simulink, double
+click on the VR Sink. In the window that opens, click on the
+Simulation/Block Parameters menu selection, then select a .wrl file and
+edit. You may have to re-load the file after editing, the Apply and OK
+buttons do not always re-load the file properly.<br>
+<br>
+The HalfScara.wrl file from the models HalfScaraMotionOver5seconds or
+HalfScaraSinusoidalMotion contains a template on how you can build a
+robot from links. <span style="font-style: italic;">Note that</span> <span
+ style="font-style: italic;">the Undo function is very limited, so save
+often.</span><br>
+<br>
+The link colours are specified first. These can be pasted with the
+"Use" (hand) button as a property of the elements that make up the
+links.<br>
+The first transform, the Worldtransform, is there to allow a change in
+base orientation once a model is built.<br>
+Link 0 is the child of this transform, so it will move, along with
+everything else, with parameters such as translation of orientation
+that may be given in the first transform (try it!).<br>
+Link 1 and 2 of this model are each made up of five building blocks
+(four boxes and a cylinder). <br>
+Link 1 is a child of the Wolrdtransform (it could have been made a
+child of Link 0),&nbsp; Link 2 a child of Link 1. <br>
+<br>
+Objects within the VRML model that should be controlled by Simulink
+should be given names (e.g., Link 0, Link 1, but note that each of the
+link components e.g. Link0Box2 could have been left alone with the
+generic name "Transform"). When the file is saved with the V-Realm
+Builder, the Parameters: VR Sink window will show a tree structure with
+red arrows pointing to the blocks that are controllable by Simulink.<br>
+You must mark the boxes of the blocks that you want to move, for
+example, the Link 1 rotation box and&nbsp; Link 2 rotation box are both
+checked.<br>
+Once these boxes are checked, Simulink creates the VR Sink inputs that
+correspond to the checked inputs, namely a 4-component input vector for
+orientation (axis as a vector with 3 entires and angle), and a
+3-component input vector for translation.<br>
+<br>
+<br>
+</body>
+</html>

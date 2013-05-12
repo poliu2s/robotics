@@ -1,0 +1,36 @@
+CC     = "c:\Program Files\MATLAB\R2011b\sys\lcc\bin\lcc.exe"
+LD     = "c:\Program Files\MATLAB\R2011b\sys\lcc\bin\lcclnk.exe"
+LIBCMD = "c:\Program Files\MATLAB\R2011b\sys\lcc\bin\lcclib.exe"
+CFLAGS = -c -Zp8 -DMATLAB_MEX_FILE -noregistrylookup
+LDFLAGS = -s -dll -L"c:\Program Files\MATLAB\R2011b\sys\lcc\lib"
+LIBFLAGS = 
+
+OBJECTS = \
+	"hapticsSimBlk_pd_sfun.obj"\
+	"hapticsSimBlk_pd_sfun_registry.obj"\
+	"c2_hapticsSimBlk_pd.obj"\
+	"lccstub.obj"\
+	"c:\Program Files\MATLAB\R2011b\sys\lcc\mex\lccdef.def"\
+	"c:\Program Files\MATLAB\R2011b\stateflow\c\debugger\lib\win32\sfc_debuglcc.lib"\
+	"c:\Program Files\MATLAB\R2011b\stateflow\c\mex\lib\win32\sfc_mexlcc.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libmex.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libmx.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libfixedpoint.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libut.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libmwmathutil.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libemlrt.lib"\
+	"c:\Program Files\MATLAB\R2011b\extern\lib\win32\lcc\libmwblascompat32.lib"\
+
+INCLUDE_PATH= -I"c:\Program Files\MATLAB\R2011b\sys\lcc\include"  -I"c:\Program Files\MATLAB\R2011b\extern\include"  -I"c:\Program Files\MATLAB\R2011b\simulink\include"  -I"c:\Program Files\MATLAB\R2011b\stateflow\c\mex\include"  -I"c:\Program Files\MATLAB\R2011b\stateflow\c\debugger\include" 
+ 
+
+hapticsSimBlk_pd_sfun.mexw32 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o hapticsSimBlk_pd_sfun.mexw32 @hapticsSimBlk_pd_sfun.lmko
+hapticsSimBlk_pd_sfun.obj :	"hapticsSimBlk_pd_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "hapticsSimBlk_pd_sfun.c"
+hapticsSimBlk_pd_sfun_registry.obj :	"hapticsSimBlk_pd_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "hapticsSimBlk_pd_sfun_registry.c"
+c2_hapticsSimBlk_pd.obj :	"c2_hapticsSimBlk_pd.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_hapticsSimBlk_pd.c"
+lccstub.obj :	"c:\Program Files\MATLAB\R2011b\sys\lcc\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c:\Program Files\MATLAB\R2011b\sys\lcc\mex\lccstub.c"

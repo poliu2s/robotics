@@ -1,0 +1,642 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF BaseFrame Transform {
+	translation	0 0 0
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    ambientIntensity	0.2
+			    }
+
+		    }
+
+		    geometry	Box {
+			    size	0.3 0.01 0.3
+		    }
+
+	    }
+
+	    DEF Link0_1 Transform {
+		    translation	0 0.35 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+				    }
+
+			    }
+
+			    geometry	Cylinder {
+				    height	0.7
+				    radius	0.025
+				    top	TRUE
+			    }
+
+		    }
+	    }
+
+	    DEF R1 Transform {
+		    translation	0 0.7 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Cylinder {
+					height	0.3
+					radius	0.1
+				}
+
+			}
+
+			DEF Link1_1 Transform {
+				translation	0 0.2 0
+				children Shape {
+					appearance	Appearance {
+						material	Material {
+							ambientIntensity	0.2
+							diffuseColor	0.0195582 0.961012 1
+						}
+
+					}
+
+					geometry	Cylinder {
+						height	0.2
+						radius	0.025
+					}
+
+				}
+			}
+
+			DEF Link1_2 Transform {
+				translation	0.25 0.3 0
+				rotation	0 0 1  1.5708
+				children Shape {
+					appearance	Appearance {
+						material	Material {
+							ambientIntensity	0.1
+							diffuseColor	0.0195582 0.961012 1
+						}
+
+					}
+
+					geometry	Cylinder {
+						height	0.5
+						radius	0.025
+					}
+
+				}
+			}
+
+			DEF Link1_3 Transform {
+				translation	0.5 0.15 0
+				children Shape {
+					appearance	Appearance {
+						material	Material {
+							ambientIntensity	0.1
+							diffuseColor	0.0195582 0.961012 1
+						}
+
+					}
+
+					geometry	Cylinder {
+						height	0.3
+						radius	0.025
+					}
+
+				}
+			}
+
+			DEF Link1_4 Transform {
+				translation	0.75 0 0
+				rotation	0 0 1  1.5708
+				children Shape {
+					appearance	Appearance {
+						material	Material {
+							ambientIntensity	0.2
+							diffuseColor	0.229787 0.776843 0.8
+							emissiveColor	0 0 0
+							shininess	0.2
+							specularColor	0 0 0
+							transparency	0
+						}
+
+					}
+
+					geometry	Cylinder {
+						height	0.5
+						radius	0.025
+					}
+
+				}
+			}
+
+			DEF Link1_5 Transform {
+				bboxSize	0 0 0
+				translation	1 0 0
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+							    ambientIntensity	0.2
+							    diffuseColor	0.254007 0.8 0.776843
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	0.1
+						    radius	0.025
+					    }
+
+				    }
+
+				    DEF R2 Transform {
+					    translation	0 0 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+									ambientIntensity	0.1
+									diffuseColor	0.0195582 0.961012 1
+									emissiveColor	0 0 0
+									shininess	0.2
+									specularColor	0 0 0
+									transparency	0
+								}
+
+							}
+
+							geometry	Cylinder {
+								height	0.3
+								radius	0.1
+							}
+
+						}
+
+						DEF Link1_1 Transform {
+							translation	0 0.15 0
+							children Shape {
+								appearance	Appearance {
+									material	Material {
+										ambientIntensity	0.2
+										diffuseColor	0.8 0.16679 0.224753
+										emissiveColor	0.13 0.13 0.13
+										specularColor	0.09 0.09 0.09
+									}
+
+								}
+
+								geometry	Cylinder {
+									height	0.3
+									radius	0.025
+								}
+
+							}
+						}
+
+						DEF Link2_2 Transform {
+							translation	0.15 0.3 0
+							rotation	0 0 -1  1.5708
+							children Shape {
+								appearance	Appearance {
+									material	Material {
+										ambientIntensity	0.2
+										diffuseColor	0.8 0.16679 0.224753
+										emissiveColor	0.13 0.13 0.13
+										specularColor	0.09 0.09 0.09
+									}
+
+								}
+
+								geometry	Cylinder {
+									height	0.3
+									radius	0.025
+								}
+
+							}
+						}
+
+						DEF Link2_3 Transform {
+							translation	0.3 0.15 0
+							children Shape {
+								appearance	Appearance {
+									material	Material {
+										ambientIntensity	0.2
+										diffuseColor	0.8 0.16679 0.224753
+										emissiveColor	0.13 0.13 0.13
+										specularColor	0.09 0.09 0.09
+									}
+
+								}
+
+								geometry	Cylinder {
+									height	0.3
+									radius	0.025
+								}
+
+							}
+						}
+
+						DEF Link2_4 Transform {
+							translation	0.45 0 0
+							rotation	0 0 -1  1.5708
+							children Shape {
+								appearance	Appearance {
+									material	Material {
+										ambientIntensity	0.2
+										diffuseColor	0.8 0.16679 0.224753
+										emissiveColor	0.13 0.13 0.13
+										shininess	0.2
+										specularColor	0.09 0.09 0.09
+										transparency	0
+									}
+
+								}
+
+								geometry	Cylinder {
+									height	0.3
+									radius	0.025
+								}
+
+							}
+						}
+
+						DEF Link2_5 Transform {
+							translation	0.6 0 0
+							children [ 
+							    DEF Prismatic1 Transform {
+								    translation	0 0 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+												ambientIntensity	0.2
+												diffuseColor	0.8 0.16679 0.224753
+												emissiveColor	0.13 0.13 0.13
+												specularColor	0.09 0.09 0.09
+											}
+
+										}
+
+										geometry	Box {
+											size	0.1 0.3 0.1
+										}
+
+									}
+
+									DEF Link3_1 Transform {
+										translation	0 -0.25 0
+										center	0 0.25 0
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+													ambientIntensity	0.1
+													diffuseColor	0.8 0.16679 0.224753
+													emissiveColor	0.13 0.13 0.13
+													shininess	0.2
+													specularColor	0.09 0.09 0.09
+													transparency	0
+												}
+
+											}
+
+											geometry	Cylinder {
+												height	0.5
+												radius	0.025
+											}
+
+										}
+									}
+
+									DEF P1 Transform {
+										translation	0 -0.5 0
+										rotation	0 0 -1  1.5708
+										children [ 
+										    Shape {
+											    appearance	Appearance {
+												    material	Material {
+													    ambientIntensity	0.2
+													    diffuseColor	0.0770838 0.8 0.134386
+												    }
+
+											    }
+
+											    geometry	Cylinder {
+												    height	0.05
+												    radius	0.025
+											    }
+
+										    }
+
+										    DEF R3 Transform {
+											    translation	0 0 0
+											    children [ 
+												Shape {
+													appearance	Appearance {
+														material	Material {
+															ambientIntensity	0.1
+															diffuseColor	0.0065239 0.8 0.0942574
+														}
+
+													}
+
+													geometry	Cylinder {
+														height	0.3
+														radius	0.1
+													}
+
+												}
+
+												DEF Link4_1 Transform {
+													translation	0 0.2 0
+													children Shape {
+														appearance	Appearance {
+															material	Material {
+																ambientIntensity	0.1
+																diffuseColor	0.00166738 0.182289 1
+															}
+
+														}
+
+														geometry	Cylinder {
+															height	0.4
+															radius	0.025
+														}
+
+													}
+												}
+
+												DEF Link4_2 Transform {
+													translation	0 0.4 0
+													rotation	1 0 0  1.5708
+													children [ 
+													    Shape {
+														    appearance	Appearance {
+															    material	Material {
+															    }
+
+														    }
+
+														    geometry	Cylinder {
+															    height	0.05
+															    radius	0.025
+														    }
+
+													    }
+
+													    DEF R4 Transform {
+														    translation	0 0 0
+														    children [ 
+															Shape {
+																appearance	Appearance {
+																	material	Material {
+																		ambientIntensity	0.1
+																		diffuseColor	0.00166738 0.182289 1
+																	}
+
+																}
+
+																geometry	Cylinder {
+																	height	0.1
+																	radius	0.05
+																	bottom	TRUE
+																}
+
+															}
+
+															DEF Link5_1 Transform {
+																translation	0 0.05 0
+																children Shape {
+																	appearance	Appearance {
+																		material	Material {
+																			ambientIntensity	0.1
+																			diffuseColor	0.798731 0.0466761 0.8
+																		}
+
+																	}
+
+																	geometry	Cylinder {
+																		height	0.1
+																		radius	0.01
+																	}
+
+																}
+															}
+
+															DEF Link5_2 Transform {
+																translation	0.05 0.1 0
+																rotation	0 0 1  1.5708
+																children Shape {
+																	appearance	Appearance {
+																		material	Material {
+																			ambientIntensity	0.1
+																			diffuseColor	0.798731 0.0466761 0.8
+																		}
+
+																	}
+
+																	geometry	Cylinder {
+																		height	0.1
+																		radius	0.01
+																	}
+
+																}
+															}
+
+															DEF Link5_3 Transform {
+																translation	0.1 0.05 0
+																children Shape {
+																	appearance	Appearance {
+																		material	Material {
+																			ambientIntensity	0.1
+																			diffuseColor	0.798731 0.0466761 0.8
+																		}
+
+																	}
+
+																	geometry	Cylinder {
+																		height	0.1
+																		radius	0.01
+																	}
+
+																}
+															}
+
+															DEF Link5_4 Transform {
+																translation	0.1 0 0
+																rotation	0 0 1  1.5708
+																children [ 
+																    Shape {
+																	    appearance	Appearance {
+																		    material	Material {
+																		    }
+
+																	    }
+
+																	    geometry	Cylinder {
+																		    height	0.05
+																		    radius	0.025
+																	    }
+
+																    }
+
+																    DEF R5 Transform {
+																	    translation	0 0 0
+																	    children [ 
+																		Shape {
+																			appearance	Appearance {
+																				material	Material {
+																					ambientIntensity	0.1
+																					diffuseColor	0.798731 0.0466761 0.8
+																				}
+
+																			}
+
+																			geometry	Cylinder {
+																				height	0.1
+																				radius	0.05
+																			}
+
+																		}
+
+																		DEF Link6_1 Transform {
+																			translation	0 -0.05 0
+																			children Shape {
+																				appearance	Appearance {
+																					material	Material {
+																						ambientIntensity	0.1
+																						diffuseColor	0.8 0.0643941 0.0488021
+																					}
+
+																				}
+
+																				geometry	Cylinder {
+																					height	0.1
+																					radius	0.025
+																				}
+
+																			}
+																		}
+
+																		DEF G1 Transform {
+																			translation	0 -0.1 0
+																			rotation	1 0 0  1.5708
+																			children Shape {
+																				appearance	Appearance {
+																					material	Material {
+																						ambientIntensity	0.1
+																						diffuseColor	0.8 0.0643941 0.0488021
+																					}
+
+																				}
+
+																				geometry	Cylinder {
+																					height	0.1
+																					radius	0.025
+																				}
+
+																			}
+																		}
+
+																		DEF G2 Transform {
+																			translation	0 -0.125 -0.05
+																			children Shape {
+																				appearance	Appearance {
+																					material	Material {
+																						ambientIntensity	0.1
+																						diffuseColor	0.8 0.0643941 0.0488021
+																					}
+
+																				}
+
+																				geometry	Cylinder {
+																					height	0.05
+																					radius	0.025
+																				}
+
+																			}
+																		}
+
+																		DEF G3 Transform {
+																			translation	0 -0.125 0.05
+																			children Shape {
+																				appearance	Appearance {
+																					material	Material {
+																						ambientIntensity	0.1
+																						diffuseColor	0.8 0.0643941 0.0488021
+																					}
+
+																				}
+
+																				geometry	Cylinder {
+																					height	0.05
+																					radius	0.025
+																				}
+
+																			}
+																		}
+
+																		DEF G4 Transform {
+																			translation	0.05 -0.125 0
+																			rotation	0 0 1  1.5708
+																			children Shape {
+																				geometry	Cylinder {
+																					height	0.05
+																					radius	0.01
+																				}
+
+																			}
+																		}
+																	    ]
+																    }
+																]
+															}
+														    ]
+													    }
+													]
+												}
+											    ]
+										    }
+										]
+									}
+								    ]
+							    }
+
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Cylinder {
+									    height	0.02
+									    radius	0.01
+								    }
+
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}
+Viewpoint {
+	fieldOfView	0.24
+	jump	TRUE
+	position	1.01678 0.46612 3
+	description	""
+}

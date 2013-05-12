@@ -1,0 +1,74 @@
+% Created by Po Liu
+% UBC EECE 487
+% February 5, 2013
+
+
+% Prompt user for input joint angles
+angle1 = input('Enter first angle: ');
+angle2 = input('Enter second angle: ');
+angle3 = input('Enter third angle: ');
+angle4 = input('Enter fourth angle: ');
+angle5 = input('Enter fifth angle: ');
+angle6 = input('Enter sixth angle: ');
+
+angle1 = angle1/180*pi;
+angle2 = angle2/180*pi;
+angle3 = angle3/180*pi;
+angle4 = angle4/180*pi;
+angle5 = angle5/180*pi;
+angle6 = angle6/180*pi;
+
+
+% Create homogeneous transformation matrix
+t1 = [ cos(angle1), -sin(angle1)*cos(-pi/2), sin(angle1)*sin(-pi/2), 0;
+    sin(angle1), cos(angle1)*cos(-pi/2), -cos(angle1)*sin(-pi/2), 0;
+    0, sin(-pi/2), cos(-pi/2), 0;
+    0, 0, 0, 1];
+
+t2 = [ cos(angle2), -sin(angle2)*cos(pi), sin(angle2)*sin(pi), 430*cos(angle2);
+    sin(angle2), cos(angle2)*cos(pi), -cos(angle2)*sin(pi), 430*sin(angle2);
+    0, sin(pi), cos(pi), 0;
+    0, 0, 0, 1];
+
+t3 = [ cos(angle3+pi/2), -sin(angle3+pi/2)*cos(pi/2), sin(angle3+pi/2)*sin(pi/2), 20.3*cos(angle3+pi/2);
+    sin(angle3+pi/2), cos(angle3+pi/2)*cos(pi/2), -cos(angle3+pi/2)*sin(pi/2), 20.3*sin(angle3+pi/2);
+    0, sin(pi/2), cos(pi/2), -149.3;
+    0, 0, 0, 1];
+
+t4 = [ cos(angle4), -sin(angle4)*cos(pi/2), sin(angle4)*sin(pi/2), 0;
+    sin(angle4), cos(angle4)*cos(pi/2), -cos(angle4)*sin(pi/2), 0;
+    0, sin(pi/2), cos(pi/2), 435;
+    0, 0, 0, 1];
+
+t5 = [ cos(angle5), -sin(angle5)*cos(-pi/2), sin(angle5)*sin(-pi/2), 0;
+    sin(angle5), cos(angle5)*cos(-pi/2), -cos(angle5)*sin(-pi/2), 0;
+    0, sin(-pi/2), cos(-pi/2), 0;
+    0, 0, 0, 1];
+
+t6 = [ cos(angle6), -sin(angle6)*cos(0), sin(angle6)*sin(0), 0;
+    sin(angle6), cos(angle6)*cos(0), -cos(angle6)*sin(0), 0;
+    0, sin(0), cos(0), 60;
+    0, 0, 0, 1];
+
+%Print out the homogeneous transformation function
+homogeneousTransform = t1*t2*t3*t4*t5*t6;
+disp(homogeneousTransform);
+
+%Plot origin of joints in 3D
+o0 = [ 1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0; 0, 0 , 0, 1];
+o1 = o0*t1
+o2 = o1*t2
+o3 = o2*t3
+o4 = o3*t4
+o5 = o4*t5
+o6 = o5*t6
+
+plot3(o0(1,4), o0(2,4), o0(3,4), 'x', ...
+    o1(1,4), o1(2,4), o1(3,4), 'x',...
+    o2(1,4), o2(2,4), o2(3,4), 'x',...
+    o3(1,4), o3(2,4), o3(3,4), 'x',...
+    o4(1,4), o4(2,4), o4(3,4), 'x',...
+    o5(1,4), o5(2,4), o5(3,4), 'x',...
+    o6(1,4), o6(2,4), o6(3,4), 'x');
+
+

@@ -1,0 +1,830 @@
+<SUF70UninstallData>
+<DataFilePath>C:\Program Files\novint\HDAL_SDK_2.1.3\Uninstall\uninstall.dat</DataFilePath>
+<CPRegKey>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HDAL Software Development Kit 2.1.32.1.3</CPRegKey>
+<EXELocation>C:\WINDOWS\HDAL Software Development Kit 2.1.3\uninstall.exe</EXELocation>
+<AppShortcutFolderPath>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3</AppShortcutFolderPath>
+<UninstallReverseOrder>1</UninstallReverseOrder>
+<UninstallFiles>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\bin\dhdlc.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\BasicTest.wdl</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\BasicTest.wed</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\BasicTest.wmp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\cube01.mdl</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\sphere01.mdl</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\GSHaptics\GSHaptics.dsp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\adll.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\adll.lib</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\afuncs.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\atypes.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\avars.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\glut.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\glut32.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\glut32.lib</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\gshaptics.cpp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\haptics.cpp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\haptics.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\main_dx9.cpp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\main_opengl.cpp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\StdAfx.cpp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\StdAfx.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vc6\basic_dx9\basic_dx9.dsp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vc6\basic_opengl\basic_opengl.dsp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vs2005\basic_dx9\basic_dx9.vcproj</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vs2005\basic_opengl\basic_opengl.vcproj</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\HDAL_API.pdf</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\HDAL_API.chm</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdl\hdl.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdl\hdlConstants.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdl\hdlErrors.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdl\hdlExports.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdlu\hdlu.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdlu\hdluExports.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\bin\dhdlcDriver.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\config\hdal.ini</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\bin\hdl.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\lib\hdl.lib</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\bin\nullDriver.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\utilities\NDSSetter.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\deprecated.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\doxygen.css</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\doxygen.png</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\files.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\globals.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\globals_enum.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\globals_eval.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\globals_func.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\globals_type.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdlu_8h-source.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdlu_8h.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdl_8h-source.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdl_8h.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdl_constants_8h-source.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdl_constants_8h.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdl_errors_8h-source.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\hdl_errors_8h.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\index.hhc</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\index.hhk</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\index.hhp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\pages.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\tabs.css</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\tab_b.gif</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\tab_l.gif</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\tab_r.gif</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\HDAL_ProgrammersGuide.pdf</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html\index.html</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\ReadMe.pdf</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\novint.ico</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src\novint.ico</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\bin\novint_T0.bin</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\bin\novint_T2.bin</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi\glut.h</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi\glut32.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi\glut32.lib</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi\main.cpp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi\novint.ico</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi\multi.dsp</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+</UninstallFiles>
+<UninstallShortcuts>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Doc\API Reference (PDF).lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Doc\API Reference (CHM).lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Desktop\NDSSetter.lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Utilities\NDSSetter.lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Doc\HDAL Programmer's Guide (PDF).lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Doc\API Reference (HTML).lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Doc\ReadMe.lnk</Filename>
+<Filename>C:\Documents and Settings\Omid\Start Menu\Programs\Novint HDAL SDK 2.1.3\Uninstall HDAL Software Development Kit 2.1.3.lnk</Filename>
+</UninstallShortcuts>
+<UninstallSupportFiles>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\Uninstall\IRIMG1.JPG</Filename>
+<Filename>C:\Program Files\novint\HDAL_SDK_2.1.3\Uninstall\IRIMG2.JPG</Filename>
+</UninstallSupportFiles>
+<UninstallFolders>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\Uninstall</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\bin</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\3DGameStudio\GSHaptics</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\src</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vc6</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vc6\basic_dx9</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vc6\basic_opengl</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vs2005</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vs2005\basic_dx9</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Basic\vs2005\basic_opengl</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\doc</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\include</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdl</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\include\hdlu</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\config</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\lib</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\utilities</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\doc\html</FolderPath>
+<FolderPath>C:\Program Files\novint\HDAL_SDK_2.1.3\examples\Multi</FolderPath>
+</UninstallFolders>
+<SessionVars>
+<Var>
+<Name>%ProductName%</Name>
+<Value>HDAL Software Development Kit %ProductVer%</Value>
+</Var>
+<Var>
+<Name>%CompanyName%</Name>
+<Value>Novint Technologies</Value>
+</Var>
+<Var>
+<Name>%ProductVer%</Name>
+<Value>2.1.3</Value>
+</Var>
+<Var>
+<Name>%Copyright%</Name>
+<Value>Copyright © 2008 %CompanyName%</Value>
+</Var>
+<Var>
+<Name>%CompanyURL%</Name>
+<Value>http://www.novint.com</Value>
+</Var>
+<Var>
+<Name>%WindowTitle%</Name>
+<Value>%ProductName% Setup</Value>
+</Var>
+<Var>
+<Name>%AppFolder%</Name>
+<Value>C:\Program Files\novint\HDAL_SDK_2.1.3</Value>
+</Var>
+<Var>
+<Name>%AppShortcutFolderName%</Name>
+<Value>Novint HDAL SDK 2.1.3</Value>
+</Var>
+<Var>
+<Name>%BriefName%</Name>
+<Value>HDAL_SDK</Value>
+</Var>
+<Var>
+<Name>%ApplicationDataFolder%</Name>
+<Value>C:\Documents and Settings\Omid\Application Data</Value>
+</Var>
+<Var>
+<Name>%ApplicationDataFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\Application Data</Value>
+</Var>
+<Var>
+<Name>%CommonFilesFolder%</Name>
+<Value>C:\Program Files\Common Files</Value>
+</Var>
+<Var>
+<Name>%DesktopFolder%</Name>
+<Value>C:\Documents and Settings\Omid\Desktop</Value>
+</Var>
+<Var>
+<Name>%DesktopFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\Desktop</Value>
+</Var>
+<Var>
+<Name>%FontsFolder%</Name>
+<Value>C:\WINDOWS\Fonts</Value>
+</Var>
+<Var>
+<Name>%MyDocumentsFolder%</Name>
+<Value>C:\Documents and Settings\Omid\My Documents</Value>
+</Var>
+<Var>
+<Name>%ProgramFilesFolder%</Name>
+<Value>C:\Program Files</Value>
+</Var>
+<Var>
+<Name>%StartFolder%</Name>
+<Value>C:\Documents and Settings\Omid\Start Menu</Value>
+</Var>
+<Var>
+<Name>%StartFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\Start Menu</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolder%</Name>
+<Value>C:\Documents and Settings\Omid\Start Menu\Programs</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\Start Menu\Programs</Value>
+</Var>
+<Var>
+<Name>%StartupFolder%</Name>
+<Value>C:\Documents and Settings\Omid\Start Menu\Programs\Startup</Value>
+</Var>
+<Var>
+<Name>%StartupFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\Start Menu\Programs\Startup</Value>
+</Var>
+<Var>
+<Name>%SystemFolder%</Name>
+<Value>C:\WINDOWS\system32</Value>
+</Var>
+<Var>
+<Name>%WindowsFolder%</Name>
+<Value>C:\WINDOWS</Value>
+</Var>
+<Var>
+<Name>%SystemDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%TempFolder%</Name>
+<Value>C:\DOCUME~1\Omid\LOCALS~1\Temp</Value>
+</Var>
+<Var>
+<Name>%TempLaunchFolder%</Name>
+<Value>C:\DOCUME~1\Omid\LOCALS~1\Temp\_ir_sf7_temp_0</Value>
+</Var>
+<Var>
+<Name>%RegOwner%</Name>
+<Value>ECE</Value>
+</Var>
+<Var>
+<Name>%RegOrganization%</Name>
+<Value>UBC</Value>
+</Var>
+<Var>
+<Name>%AppDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%DAOPath%</Name>
+<Value>C:\Program Files\Common Files\Microsoft Shared\DAO</Value>
+</Var>
+<Var>
+<Name>%SourceFilename%</Name>
+<Value>C:\Documents and Settings\Omid\Desktop\2008-08-20_Novint_HDAL_SDK_2.1.3_setup(1).exe</Value>
+</Var>
+<Var>
+<Name>%SourceFolder%</Name>
+<Value>C:\Documents and Settings\Omid\Desktop</Value>
+</Var>
+<Var>
+<Name>%SourceDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%UserName%</Name>
+<Value>ECE</Value>
+</Var>
+<Var>
+<Name>%UserCompany%</Name>
+<Value>UBC</Value>
+</Var>
+<Var>
+<Name>%SpaceAvailable%</Name>
+<Value>904.34 GB</Value>
+</Var>
+<Var>
+<Name>%SpaceRequired%</Name>
+<Value>2.22 MB</Value>
+</Var>
+</SessionVars>
+</SUF70UninstallData>

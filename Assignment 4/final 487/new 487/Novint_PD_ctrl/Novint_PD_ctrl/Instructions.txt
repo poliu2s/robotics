@@ -1,0 +1,56 @@
+The "falconPlant" block enables you to control the Novint Falcon. The input of this model is the force applied to each arm ([f1,f2,f3]) and the output is the position of the gripper ([x,y,z]).
+
+** The Novint Falcon output range(inches) is:
+x:(left right)[-2 2]
+y:(up down)[-2 2]
+z:(inward outward)[-1.5 1.5]
+
+** The Novint Falcon input range(Newtons) is:
+x:[-8 8]
+y:[-8 8]
+z:[-5 -5]
+   
+In order to create and use the falconPlant block:
+
+   1. In hapticsScript.m, change hapticsSim.IncPaths and hapticsSim.LibPaths to the user hdal_SDK directory;
+
+   2. Execute hapticsScript.m to generate sfunc_haptics block;
+
+   3. Open user model (here hapticsSimBlk_pd.mdl);
+
+   4. Drag the generated sfunc_haptics block to user model;
+
+   5. Under Realtime Workshop Options -> Solver: choose fixed-step, discrete solver and a fixed-step size: choose a reasonable value e.g. 1ms.
+ 
+   6. Make sure Timestep in RTblock < 1ms;   
+   
+   7. Choose Kp, Kd, and integer delay. 
+
+   8. In simulation mode, now you can run the model. 
+
+
+Problems and possible solutions:
+
+* If the C compiler is not set in Matlab, you will get the following error when running hapticsScript.m:
+
+??? Error using ==> mex
+Unable to complete successfully.
+
+Error in ==> legacy_code at 39
+            legacy_code_compile(varargin{1},varargin{2})
+ 
+Type the following in the Matlab command line:
+
+mex -setup
+
+and select the C compiler. 
+
+* Adding scope etc will make the update rate drop.
+
+* Novint is alright if blue light is on. Green light on: seems to be able to get position reading, but cannot apply force command. 
+
+* The Novint Falcon may sometimes have to be 'homed'. To do this, right after running the model, pull and then push the gripper to the extremes of its workspace (z direction).
+
+
+
+

@@ -1,0 +1,190 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF link1color Material {
+	ambientIntensity	0.2
+	diffuseColor	0.00903907 0.0796271 0.76
+}
+DEF link2color Material {
+	ambientIntensity	0.2
+	diffuseColor	0.770833 0.8 0.0192396
+}
+DEF Worldtransform Transform {
+	children [ 
+	    DEF Link0 Transform {
+		    rotation	-1 0 0  1.5708
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.2
+					    diffuseColor	0.8 0.0570379 0.126599
+				    }
+
+			    }
+
+			    geometry	Cylinder {
+				    radius	1
+				    bottom	TRUE
+			    }
+
+		    }
+	    }
+
+	    DEF Link1 Transform {
+		    children [ 
+			DEF Link1Box1 Transform {
+				translation	0 0 2
+				children Shape {
+					appearance	Appearance {
+						material	USE link1color 
+					}
+
+					geometry	Box {
+						size	0.4 0.4 2
+					}
+
+				}
+			}
+
+			DEF Link1Box2 Transform {
+				translation	4 0 0
+				rotation	1 0 0  1.5708
+				children Shape {
+					appearance	Appearance {
+						material	USE link1color 
+					}
+
+					geometry	Cylinder {
+					}
+
+				}
+			}
+
+			DEF Link1Box3 Transform {
+				translation	1.20001 -1.93715e-007 2.80001
+				children Shape {
+					appearance	Appearance {
+						material	USE link1color 
+					}
+
+					geometry	Box {
+						size	2 0.4 0.4
+					}
+
+				}
+			}
+
+			DEF Link1Box4 Transform {
+				translation	2 0 1.6
+				children Shape {
+					appearance	Appearance {
+						material	USE link1color 
+					}
+
+					geometry	Box {
+						size	0.4 0.4 2.8
+					}
+
+				}
+			}
+
+			DEF Link1Cylinder Transform {
+				translation	2.4 0 0
+				children Shape {
+					appearance	Appearance {
+						material	USE link1color 
+					}
+
+					geometry	Box {
+						size	1.2 0.4 0.4
+					}
+
+				}
+			}
+
+			DEF Link2 Transform {
+				translation	4 0 0
+				children [ 
+				    DEF Link2Box1 Transform {
+					    translation	0 0 2
+					    children Shape {
+						    appearance	Appearance {
+							    material	USE link2color 
+						    }
+
+						    geometry	Box {
+							    size	0.4 0.4 2
+						    }
+
+					    }
+				    }
+
+				    DEF Link2Box2 Transform {
+					    translation	4 0 0
+					    rotation	1 0 0  1.5708
+					    children Shape {
+						    appearance	Appearance {
+							    material	USE link2color 
+						    }
+
+						    geometry	Cylinder {
+						    }
+
+					    }
+				    }
+
+				    DEF Link2Box3 Transform {
+					    translation	1.20001 -1.93715e-007 2.80001
+					    children Shape {
+						    appearance	Appearance {
+							    material	USE link2color 
+						    }
+
+						    geometry	Box {
+							    size	2 0.4 0.4
+						    }
+
+					    }
+				    }
+
+				    DEF Link2Box4 Transform {
+					    translation	2 0 1.6
+					    children Shape {
+						    appearance	Appearance {
+							    material	USE link2color 
+						    }
+
+						    geometry	Box {
+							    size	0.4 0.4 2.8
+						    }
+
+					    }
+				    }
+
+				    DEF Link2Cylinder Transform {
+					    translation	2.4 0 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	USE link2color 
+						    }
+
+						    geometry	Box {
+							    size	1.2 0.4 0.4
+						    }
+
+					    }
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}
+DEF MyCamera Viewpoint {
+	orientation	1 0 0  1.5708
+	position	4 -15 -1
+}
